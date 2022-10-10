@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "Node.h"
+#include "../Node/Node.h"
 
 struct LinkedList {
     struct Node *head;
