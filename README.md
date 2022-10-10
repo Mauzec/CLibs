@@ -1,2 +1,3 @@
 # CLibs
-Some libraries for c
+
+thanks to ericomeehan for a very detailed tutorial made for us
