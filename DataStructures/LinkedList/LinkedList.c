@@ -1,4 +1,5 @@
 #include "LinkedList.h"
+//Functions DEFINITION 
 
 struct Node *createNode(void *data, unsigned long size);
 void destroyNode(struct Node *node);
@@ -8,6 +9,8 @@ struct Node *iterateLinkedList(int index, struct LinkedList *linkedList);
 void insertNode(int index, void *data, struct LinkedList *linkedList, unsigned long size);
 void removeNode(int index, struct LinkedList *linkedList);
 void *retrieveData(int index, struct LinkedList *linkedList);
+//----//
+//Functions DESCRIPTION
 
 struct LinkedList linkedListConstructor() {
     struct LinkedList list;
